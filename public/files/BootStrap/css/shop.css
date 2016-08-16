@@ -1,0 +1,66 @@
+/*header*/
+body{-webkit-text-size-adjust: none;font-family: "microsoft yahei";}
+.dl-horizontal>dt{text-align: left;color: #7E7E7E;}
+a:hover{text-decoration: none;}
+html,body{-webkit-text-size-adjust: none;}
+.textColor-ff8376{color: #FF8376;}
+.fmt{margin-top: 20px !important;}
+.navbar-inverse{border:none !important;border-radius: 0 !important;background-color: #FF5842 !important;background-image: none !important;}
+.navbar-nav>li>a{color:#ffffff !important;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{background-color: #ff5842 !important;}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{background-color: #f24933 !important;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{background-image: none !important;}
+.first-navbar li a{padding: 0 10px !important;}
+.first-navbar li:first-child a{padding-left: 0 !important}
+.first-navbar>li>a:hover{color: #F24933 !important;}
+.first-navbar>.active>a{color: #F24933 !important;background: none !important;box-shadow: none !important;}
+
+/*第一部分*/
+.fr1 .thumbnail{
+  position:relative;
+  overflow: hidden;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* 定义图片说明 */
+.fr1 .thumbnail .caption{
+  position: absolute;
+  top:0;
+  left:0;
+  background:rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  display: block;
+  text-align: left;
+  color:#fff !important;
+  z-index: 1;
+  
+}
+.biglabel{
+  font-size:15px;
+  font-weight: 300px;
+}  
+.caption-info-box{width: 50%;/*margin: 0 auto;*/}
+.label-info[href]:hover, .label-info[href]:focus {
+    background-color: #FF5842;
+}
+.fr1 .thumbnail .caption>.caption-info-box> span{display: inline-block;width: 100%;height: 0;border: #96f387 solid 1px;}
+/*第二部分*/
+.top-offset{margin-top: -20px;}
+.btn-style{background-color: #3C3C3C;padding: 10px 30px ;}
+.bg-black>.top-offset>p{background: url(../img/bg-black.png) center center no-repeat; color: white;padding: 20px 15px;}
+.textColor-FFF{color: #FFFFFF;}
+/*第三部分*/
+.fr2 .thumbnail{padding: 0;}
+.fr2 .thumbnail .caption{text-align: center;background-color: #F8F8F8;}
+.textColor-red{color: red;}
+.bg-f6f6f6{background-color: #E6E6E6 ;color: #FFFFFF;}
+.bg-ff5842:hover{color: white;background-color: #FF5842;}
+/*底部部分*/
+.bg-footer{background: url(../img/bg-footer.png) center center repeat-y;color: #FFFFFE;}
+.bg-footer1{background: url(../img/bg-footer1.png) center center repeat-y;color: #FFFFFE;padding: 5px 0;}
+.bg-footer1 .thumbnail{border-bottom: none !important;margin-bottom: 0;border: none;}

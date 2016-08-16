@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title= title
+    meta(name='keywords',content='个人博客，响应式')
+    meta(name='description',content='如影随形')
+    meta(name='viewport',content='width=device-width,minimum-scale=1.0,maximum-scale=1.0')
+    // if lt IE 9     ie9及ie9以下可识别
+      script(src="/public/js/modernizr.js")
+    include  ./includes/head
+  body
+      block content

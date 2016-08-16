@@ -1,0 +1,41 @@
+//
+   Created by sf on 2016/7/26.
+extends layout
+
+block content
+   h1 更新用户资料
+   form(method='post', action='/users/updateUser')
+      div.form-row
+         label
+            span 用户ID:
+            input(type='text',name='author_id')
+      div.form-row
+         label
+            span 用户名:
+            input(type='text',name='author_name')
+      div.form-row
+         label
+            span 网名:
+            input(type='text',name='screen_name')
+      div.form-row
+         label
+            span 职业:
+            input(type='text',name='professional')
+      div.form-row
+         label
+            span 籍贯:
+            input(type='text',name='author_origin')
+      div.form-row
+         label
+            span 电话:
+            input(type='text',name='author_tel')
+      div.form-row
+         label
+            span Email:
+            input(type='text',name='author_email')
+      div.form-row
+         label
+            span 头像:
+            input(type='text',name='head_img')
+      div.form-row
+         input(type='submit')

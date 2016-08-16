@@ -1,0 +1,85 @@
+/*头部部分*/
+body{-webkit-text-size-adjust: none;font-family: "microsoft yahei";}
+.clear{clear: both;}
+.dl-horizontal>dt{text-align: left;color: #7E7E7E;}
+a:hover{text-decoration: none;}
+html,body{-webkit-text-size-adjust: none;}
+.textColor-ff8376{color: #FF8376;}
+.fmt{margin-top: 20px !important;}
+.navbar-inverse{border:none !important;border-radius: 0 !important;background-color: #FF5842 !important;background-image: none !important;}
+.navbar-nav>li>a{color:#ffffff !important;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{background-color: #ff5842 !important;}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{background-color: #f24933 !important;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{background-image: none !important;}
+.first-navbar li a{padding: 0 10px !important;}
+.first-navbar li:first-child a{padding-left: 0 !important}
+.first-navbar>li>a:hover{color: #F24933 !important;}
+.first-navbar>.active>a{color: #F24933 !important;background: none !important;box-shadow: none !important;}
+/*主体部分*/
+.dl-horizontal>dt{text-align: left;color: #7E7E7E;}
+.text-red{color: deeppink;}
+.fr3 .thumbnail{border: none;box-shadow: none;border-radius: 0;}
+.fr3 .thumbnail>.caption{padding: 0;}
+.fr3 .caption>h5{display: inline-block;margin: 0;}
+.btn-style{background-color: #FF5842;padding: 10px 30px ;color: #FFFFFF;}
+.btn-style:hover,.btn-style:focus{color: #FFFFFF;background-color: #EA4800;}
+
+/*.fr3 .textColor-606060 h3{margin-top: 0;}*/
+.clearMarginT{margin-top: 0;}
+/*右侧部分*/
+.border{width: 100%;height: 0;display: inline-block;border: #E6E6E6 solid 1px;margin: 20px 0 20px 0px;}
+.paddingTB{padding-top: 15px;padding-bottom: 15px;}
+.bg-f6f6f6{background: #f6f6f6;border: white solid 1px;color: #606060;}
+.bg-f6f6f6:hover{background-color:#FF5842;cursor: pointer;cursor: -ms-pointer;}
+
+.nav-tabs>li>a{color: #FFFFFE ;border: none;font-size: ;}
+.active>a{background-color: #F24933 !important;border: none !important;color: #FFFFFE !important;box-shadow: inset 0 3px 9px rgba(0,0,0,.25); -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.25)}
+.active>a:hover{cursor: pointer !important;box-shadow: inset 0 3px 9px rgba(0,0,0,.25);-webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.25)}
+.nav-tabs{background-color: #ff5842;}
+.clearPaddingL{padding-left: 0;}
+.clearPaddingTBL{padding-top: 0;padding-bottom: 0;padding-left: 0;}
+.clearPaddingR{padding-right: 0}
+#tabs1{margin-bottom: 15px}
+#tabs-1>ul>li>.thumbnail,#tabs-2>ul>li>.thumbnail,#tabs-3>ul>li>.thumbnail{border: none !important;padding: 0}
+#tabs-1>ul,#tabs-2>ul,#tabs-3>ul{border-bottom: #E6E6E6 solid 1px ;}
+.borderCECECE{border: #cecece solid 1px}
+.nav-tabs>li{margin-bottom: 0px;}
+.clearPadding{padding-top: 0 !important;padding-right: 0 !important;padding-bottom: 0 !important;padding-left: 0 !important;}
+.content{display: inline-block;border: #E6E6E6 solid 1px;}
+/* Tags */
+.paddingALL>li{background-color: #f6f6f6;padding: 5px 10px;}
+.bg-f6f6f6>a{color: #606060}
+/*FEATURED VIDEO*/
+.clearMarginB{margin-bottom: 0;}
+.videoUiWrapper{border-bottom: #FF5842 solid 5px;}
+/*Twitter*/
+.twitter>.media{background-color:#F6F6F6 ;;}
+.bg-f6f6f6-1{background-color: #50b4e6 !important;color: #FFFFFF;}
+.twitter>.media:hover{background-color: #50b4e6;cursor: pointer;}
+.media-body>a{color: #606060;}
+.media-body>a:hover{color: #FFFFFF;}
+/*NewsLetter*/
+.bg-ff5842{background-color: #FF5842 !important;color: #F8F8F8;}
+.bg-ff5842:hover{color: #FFFFFF !important;}
+.bg-ff5842:focus{color: #FFFFFF !important;}
+/*轮播图*/
+.carousel-control.left{background: url(../img/pre-next/pre-after.png) left top no-repeat !important;right: 0 !important;left: auto !important;width: 93px !important;}
+.carousel-control.right{background: url(../img/pre-next/next-after.png) top center no-repeat !important;width: 60px!important;}
+.carousel-control{width: 9% !important;}
+#slider1 h5,#slider3 h5{display: inline-block;}
+.fr4{margin-top: 30px;}
+@media (min-width: 768px){
+	.dl-horizontal dt {
+    float: left;
+    width: 145px;
+    overflow: hidden;
+    clear: left;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}
+}
+@media (max-width: 768px){
+	.thumbnail .caption{margin-top: 10px;}
+	.fr4{margin-top: 70px;display: inline-block;}
+}

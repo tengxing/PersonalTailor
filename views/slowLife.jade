@@ -1,0 +1,155 @@
+extends layout
+block content
+   link(href='/stylesheets/style.css',rel='stylesheet')
+   link(href='/stylesheets/media.css',rel='stylesheet')
+   div.ibody
+      header
+         h1 如影随形
+         h2 影子是一个会撒谎的精灵，它在虚空中流浪和等待被发现之间;在存在与不存在之间....
+         div.logo
+            a(href='/')
+         nav(id='topnav')
+            a(href='/') 首页
+            a(href='about') 关于我
+            a(href='slowLife') 慢生活
+            a(href='templateSharing') 模板分享
+            a(href='templateTheme') 模板主题
+      article
+         h2.about_h 您现在的位置是：
+            a(href='/') 首页
+            font >
+            a(href='slowLife') 慢生活
+         div.bloglist
+            each item in article
+               div.newblog
+                  ul
+                     h3
+                        a(href='/') #{item.title}
+                     div.autor
+                        span 作者：#{item.author_name}
+                        span 分类：[
+                           a(href='/') #{item.tag_name}
+                           font ]
+                        span 浏览：(
+                           a(href='/') #{item.skim}
+                           font )
+                        span 评论：(
+                           a(href='/') 30
+                           font )
+                     p.content_text #{item.content}
+                     a.readmore.sl(href='/detail/#{item.id}',target="_blank") 全文
+                  figure
+                     img(src='images/001.jpg')
+                  div.dateview #{moment(item.date).format('YYYY-MM-DD')}
+         div.page
+            a(href='/',title="Total record")
+               b 113
+            b 1
+            a(href='/') 2
+            a(href='/') 3
+            a(href='/') 4
+            a(href='/') 5
+            a(href='/') &gt;
+            a(href='/') &gt;&gt;
+      aside
+         div.rnav
+            li.rnav1
+               a(href='/') 日记
+            li.rnav2
+               a(href='/') 欣赏
+            li.rnav3
+               a(href='/') 程序人生
+            li.rnav4
+               a(href='/') 经典语录
+         div.ph_news
+            h2
+               p 点击排行
+            ul.ph_n
+               li
+                  span.num1 1
+                  a(href='/') 有一种思念，是淡淡的幸福,一个心情一行文字
+               li
+                  span.num2 2
+                  a(href='/') 励志人生-要做一个潇洒的女人
+               li
+                  span.num3 3
+                  a(href='/') 女孩都有浪漫的小情怀――浪漫的求婚词
+               li
+                  span 4
+                  a(href='/') Green绿色小清新的夏天-个人博客模板
+               li
+                  span 5
+                  a(href='/') 女生清新个人博客网站模板
+               li
+                  span 6
+                  a(href='/') Wedding-婚礼主题、情人节网站模板
+               li
+                  span 7
+                  a(href='/') Column 三栏布局 个人网站模板
+               li
+                  span 8
+                  a(href='/') 时间煮雨-个人网站模板
+               li
+                  span 9
+                  a(href='/') 花气袭人是酒香―个人网站模板
+            h2
+               p 栏目推荐
+            ul.tj_t1_list
+            h2
+               p 最新评论
+            ul.pl_n
+               each item in article
+                  dl
+                     dt
+                        img(src='images/s8.jpg')
+                     dt
+                     dd #{item.tourist}
+                        time #{(item.datetime)}
+                     dd
+                        a(href='/') #{item.text}
+               //dl
+               //   dt
+               //      img(src='images/s7.jpg')
+               //   dt
+               //   dd yisa
+               //      time 2小时前
+               //   dd
+               //      a(href='/') 我手机里面也有这样一个号码存在
+               //dl
+               //   dt
+               //      img(src='images/s6.jpg')
+               //   dt
+               //   dd 小林博客
+               //      time 8月7日
+               //   dd
+               //      a(href='/') 博客色彩丰富，很是好看
+               //dl
+               //   dt
+               //      img(src='images/003.jpg')
+               //   dt
+               //   dd DanceSmile
+               //      time 49分钟前
+               //   dd
+               //      a(href='/') 文章非常详细，我很喜欢.前端的工程师很少，我记得几年前yahoo花高薪招聘前端也招不到
+               //dl
+               //   dt
+               //      img(src='images/002.jpg')
+               //   dt
+               //   dd yisa
+               //      time 2小时前
+               //   dd
+               //      a(href='/') 我手机里面也有这样一个号码存在
+            h2
+               p 最近访客
+               ul
+                  //直接使用多说的插件调用代码
+                  img(src='images/vis.jpg')
+         div.copyright
+            ul
+               p Design by
+                  a(href='/') DanceSmile
+               p 蜀ICP备11002373号-1
+      script(src='javascripts/silder.js')
+      script(src='javascripts/slowLife.js')
+      div.clear
+

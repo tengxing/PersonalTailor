@@ -1,0 +1,126 @@
+
+extends ./layout
+
+block content
+   pre(style='font-size:20px;color:red;')  #{ error}
+   link(href='/admin/styles/screen.css',rel='stylesheet')
+   link(href='/admin/styles/base.css',rel='stylesheet')
+   div.logina-main.main.clearfix
+      div.tab-con
+         form(id='form-login',method='post',action='/admin/reg')
+            div.error-tip
+            table(border="0" cellspacing="0" cellpadding="0")
+               tbody
+                  tr
+                     th 账户
+                     td(style='width:245px')
+                        input(type='text',placeholder='Email',required="",name='username',id='username')
+                     td
+                  tr
+                     th 密码
+                     td(style='width:245px')
+                        input(type='password',placeholder="请输入口令",required="",name='password',id='password')
+                     td
+                  tr
+                     th 再次输入密码
+                     td(style='width:245px')
+                        input(type='password',placeholder="请再次输入口令",required="",name='re_password',id='re_password')
+                     td
+                  tr
+                     th
+                        td(style='width:245px')
+                           input.confirm(type='submit',value='注册')
+            input(type='hidden',name='refer',value='')
+      div.reg
+         p 已有账号？
+         a.reg-btn(href='./login') 立即登录
+   div(id='footer')
+      div.copyright Copyright © 2014 js-css.cn. All Rights Reserved. js代码网 版权所有
+   //div.main
+   //   div.login-form
+   //      div.login-left
+   //         div.logo
+   //            img(src="images/reg/img1.jpg",alt="")
+   //            h2 Welcome
+   //            p Lorem Ipsum Is dummy text
+   //         div.social-icons
+   //            ul
+   //               li
+   //                  a(href='/')
+   //                     img(src="images/reg/i1.png",alt="")
+   //               li
+   //                  a.twt(href='/')
+   //                     img(src="images/reg/i1.png",alt="")
+   //               li
+   //                  a.ggl(href='/')
+   //                     img(src="images/reg/i1.png",alt="")
+   //      div.login-right
+   //         div.sap_tabs
+   //            div(id="horizontalTab",style="display: block; width: 100%; margin: 0px;")
+   //               ul.resp-tabs-list
+   //                  li.resp-tab-item(aria-controls="tab_item-0",role="tab")
+   //                     span Login
+   //                  li.resp-tab-item(aria-controls="tab_item-1",role="tab")
+   //                     label /
+   //                     span Sign up
+   //                  div.clear
+   //               div.resp-tabs-container
+   //                  div.tab-1.resp-tab-content(aria-labelledby="tab_item-0")
+   //                     div.login-top
+   //                        form
+   //                           input.email(type="text",placeholder="Email",required="",name='author_email')
+   //                           input.password(type='password',placeholder='Password',required="",name='author_password')
+   //                        div.login-text
+   //                           ul
+   //                              li
+   //                                 label
+   //                                    input(type='checkbox',value='Remember-me')
+   //                                    font Remember me?
+   //                              li
+   //                                 a(href='/') Forgot password?
+   //                        div.login-bottom.login-bottom1
+   //                           div.submit
+   //                              form
+   //                                 input(type='submit',value='LOGIN')
+   //                           ul
+   //                              li
+   //                                 p Or login width
+   //                              li
+   //                                 a(href='/')
+   //                                    img(src='images/reg/i1.png',alt="")
+   //                              li
+   //                                 a.twts(href='/')
+   //                                    img(src='images/reg/i2.png',alt="")
+   //                              li
+   //                                 a.ggl(href='/')
+   //                                    img(src='images/reg/i3.png',alt="")
+   //                           div.clear
+   //                  div.tab-1.resp-tab-content
+   //                     div.login-top.sign-top
+   //                        form(method='post',action='/admin/reg')
+   //                           input.name.active(type='text',placeholder='Email',required="",name='username',id='username')
+   //                           //font #{error}
+   //                           input.email(type='password',placeholder="请输入口令",required="",name='password',id='password')
+   //                           input.password(type='password',placeholder="请重新输入口令",required="",name='re_password',id='re_password')
+   //                           div.login-bottom(style='margin-top:10%;padding-bottom:9%')
+   //                              div.submit
+   //                                 input(type='submit',value='注册',id='regist')
+   //                              ul
+   //                                 li
+   //                                    p Or login width
+   //                                 li
+   //                                    a(href='/')
+   //                                       img(src='images/reg/i1.png',alt="")
+   //                                 li
+   //                                    a.twt(href='/')
+   //                                       img(src='images/reg/i2.png',alt="")
+   //                                 li
+   //                                    a.ggl(href='/')
+   //                                       img(src='images/reg/i3.png',alt="")
+   //      div.clear
+   //div.copyright
+   //   p &copy; 2015 Tab Login Form . All rights reserved | Design by
+   //   a(href='http://w3layouts.com/',target='_blank') W3layouts
+
+
+

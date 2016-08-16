@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Blog</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"  />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/responsive/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/responsive/responsiveslides.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/blog.css"/>
+		<script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/responsive/responsiveslides.min.js" type="text/javascript" charset="utf-8"></script>
+	    <!--[if lt IE 9]>
+	    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+		<style type="text/css">
+			.callbacks_nav{left: 0;}
+			.callbacks_nav.next {right: 0;}
+			.callbacks_nav{background: transparent url(../img/themes1.png) left top;}
+			.callbacks_container{border: #E6E6E6 solid 1px;}
+			.videoUiWrapper.thumbnail .videoController {left: 0px !important; bottom: 0px !important;}
+		</style>
+	</head>
+	<body>
+		<header class="">
+			<div class="container-fluid">
+				<ul class="list-unstyled">
+					<li class="col-md-2 " >
+						<h3 ><abbr class="text-uppercase textColor-ff8376">composure</abbr><span style="float: right;color: darkgray;">|</span></h3>
+					</li>
+					<li class="col-md-4">
+						<h4 class="right">
+							<p><small >Creative Html template</small></p>
+							<p><small>Call us toll free: +2 000 123 45 67</small></p>
+						</h4>
+					</li>
+					<li class="col-md-6 fmt">
+						<form class="navbar-form navbar-right" role="search">
+					        <div class="form-group">
+					          <input type="text" class="form-control" placeholder="Search">
+					        </div>
+					        <button type="submit" class="btn btn-default">Submit</button>
+					     </form>
+					</li>
+					
+				</ul>
+			</div>
+			<!--导航条-->
+			<!--<div class="container-fluid">
+				<ul class="list-inline first-navbar">
+					<li ><a href="#">HOME</a></li>
+			        <li class="active">
+			        	<a href="#">BLOG</a>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#">SHOP </a>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#" >SERVICE </a>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#">PORTFOLIO </a>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#">ABOUT US</a>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#">CONTACT US</a>
+			        </li>
+				</ul>
+			</div>-->
+			<nav class="navbar navbar-inverse">
+			    <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        	<span class="sr-only">Toggle navigation</span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			    	</button>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+				        <li>
+				        	<a href="blog.html" class="dropdown-toggle" data-hover="dropdown">BLOG</a>
+				        	<!--<ul class="dropdown-menu">
+					            <li><a href="#">Action1</a></li>
+					            <li><a href="#">Another action1</a></li>
+					            <li><a href="#">Something else here1</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="#">Separated link1</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="#">One more separated link1</a></li>
+					          </ul>-->
+				        </li>
+				        <li class="dropdown">
+				          <a href="shop.html" class="dropdown-toggle" data-hover="dropdown" >SHOP </a>
+				          <!--<ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>-->
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >SERVICE </a>
+				          <!--<ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>-->
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >PORTFOLIO </a>
+				          <!--<ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>-->
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >ABOUT US</a>
+				          <!--<ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>-->
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >CONTACT US</a>
+				          <!--<ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>-->
+				        </li>
+				      </ul>
+				  </div>
+			</nav>
+			<script type="text/javascript">
+				$('.dropdown-toggle').dropdownHover();
+			</script>
+		</header>
+		<div class="container-fluid">
+			<div class="row fr3">
+				<div class="col-md-9 col-sm-9">
+					<h3 class="text-uppercase textColor-606060 clearMarginT">
+						<img src="../img/title-fr/fr3.png" style="margin-bottom: 5px;">
+						&nbsp;Follow
+					</h3>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
+								<div class="caption pull-left col-md-9">
+									<h5 ><dl class="dl-horizontal"><dt>第二第二第二第二第二第二第二</dt></dl>  </h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
+									<button class="btn btn-style">更多</button>
+			  					</div>
+			  					
+							</div>
+							
+							<div class="col-md-12">
+		  						<p class="border"></p>
+		  					</div>
+						</div>
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
+								<div class="caption pull-left col-md-9">
+									<h5 ><dl class="dl-horizontal"><dt>第二第二第二第二第二第二第二</dt></dl>  </h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
+									<button class="btn btn-style">更多</button>
+			  					</div>
+			  					
+							</div>
+							
+							<div class="col-md-12">
+		  						<p class="border"></p>
+		  					</div>
+						</div>
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
+								<div class="caption pull-left col-md-9">
+									<h5 ><dl class="dl-horizontal"><dt>第二第二第二第二第二第二第二</dt></dl>  </h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
+									<button class="btn btn-style">更多</button>
+			  					</div>
+			  					
+							</div>
+							
+							<div class="col-md-12">
+		  						<p class="border"></p>
+		  					</div>
+						</div>
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
+								<div class="caption pull-left col-md-9">
+									<h5 ><dl class="dl-horizontal"><dt>第二第二第二第二第二第二第二</dt></dl>  </h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
+									<button class="btn btn-style">更多</button>
+			  					</div>
+			  					
+							</div>
+							
+							<div class="col-md-12">
+		  						<p class="border"></p>
+		  					</div>
+						</div>
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
+								<div class="caption pull-left col-md-9">
+									<h5 ><dl class="dl-horizontal"><dt>第二第二第二第二第二第二第二</dt></dl>  </h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
+									<button class="btn btn-style">更多</button>
+			  					</div>
+			  					
+							</div>
+							
+							<div class="col-md-12">
+		  						<p class="border"></p>
+		  					</div>
+						</div>
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
+								<div class="caption pull-left col-md-9">
+									<h5 ><dl class="dl-horizontal"><dt>第二第二第二第二第二第二第二</dt></dl>  </h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
+									<button class="btn btn-style">更多</button>
+			  					</div>
+			  					
+							</div>
+							
+							<div class="col-md-12">
+		  						<p class="border"></p>
+		  					</div>
+						</div>
+					</div>
+					
+				</div>
+				<!--<div class="col-md-3 col-sm-3">-->
+				<div class="col-md-3 col-sm-3 col-xs-12 pull-right">
+       				<h3 class="text-uppercase textColor-606060  clearMarginT">
+						<img src="../img/title-fr/fr3.png" style="margin-bottom: 5px;"/>
+						&nbsp;Follow
+					</h3>
+					<ul class="list-inline">
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite1.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite2.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite3.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite4.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite5.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite6.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite7.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite8.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite9.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite10.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite11.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite12.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite13.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite14.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite15.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite16.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite17.png"/></span></a>
+						</li>
+						<li class="col-md-2 col-sm-3 col-xs-2 ">
+							<a href=""><span class="thumbnail"><img src="../img/sprite/sprite18.png"/></span></a>
+						</li>
+					</ul>
+					<div class="list">
+						<h3 class="text-uppercase textColor-606060 clear" style="margin-top: 10px;">
+							<img src="../img/title-fr/fr4.png" style="margin-bottom: 5px;"/>
+							&nbsp;List
+						</h3>
+						<ul class="list-inline">
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第一</a>
+							</li>
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第二</a>
+							</li>
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第三</a>
+							</li>
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第四</a>
+							</li>
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第五</a>
+							</li>
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第六</a>
+							</li>
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第七</a>
+							</li>
+							<li class="col-md-6 col-sm-3 col-xs-6 bg-f6f6f6 text-center paddingTB">
+								<a href="">第八</a>
+							</li>
+						</ul>
+					</div>
+       				<div class="">
+       					<h3 class="text-uppercase textColor-606060 clear" style=" display: inline-block;">
+							<img src="../img/title-fr/fr5.png" style="margin-bottom: 5px;"/>
+							&nbsp;Advertising
+						</h3>
+       				</div>
+					<div class="thumbnail">
+						<a href="">
+							<img src="../img/banner3.jpg"/>
+						</a>
+					</div>
+					<div class="content">
+						<ul class="nav-tabs nav" id="tabs1">
+							<li class="active col-md-4 col-sm-4 col-sm-4 clearPadding text-center"><a href="#tabs-1"><h5>Popular</h5> </a></li>
+							<li class="col-md-4 col-sm-4 col-xs-4 clearPadding text-center"><a href="#tabs-2"><h5>Recent</h5></a></li>
+							<li class="col-md-4 col-sm-4 col-xs-4 clearPadding text-center"><a href="#tabs-3"><h5>Comments</h5> </a></li>
+						</ul>
+						<div class="col-md-12 col- sm-12">
+							<div class="tab-content">
+								<div class="tab-pane active" id="tabs-1">
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL">
+											<div class="thumbnail img-box">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li> 											
+									</ul>
+								</div>
+								<div class="tab-pane" id="tabs-2">
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li> 											
+									</ul>
+								</div>
+								<div class="tab-pane" id="tabs-3">
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li>
+									</ul>
+									<ul class="list-unstyled pull-left">
+										<li class="col-md-6 col-sm-12 clearPaddingL ">
+											<div class="thumbnail">
+												<img src="../img/banner1.png"/>
+											</div>
+										</li>
+										<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
+											<div class="caption">
+												<h6 style="display: inline-block;width: 100%;margin-bottom: 0;"><dl class="dl-horizontal"><dt>第九第八第七第六第五第四第三</dt></dl></h6>
+												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+											</div>
+										</li> 											
+									</ul>
+								</div>
+							</div>
+						</div>
+ 					</div>
+ 					<div class="">
+ 						<h3 class="text-uppercase textColor-606060">
+							<img src="../img/title-fr/fr8.png" style="margin-bottom: 5px;"/>
+							&nbsp;Tags
+						</h3>
+						<ul class="list-inline paddingALL clearMarginB">
+							<li class="bg-f6f6f6"><a href="">Arts</a></li>
+							<li class="bg-f6f6f6"><a href="">War</a></li>
+							<li class="bg-f6f6f6"><a href="">Sports</a></li>
+							<li class="bg-f6f6f6"><a href="">Shoping</a></li>
+							<li class="bg-f6f6f6"><a href="">Authors</a></li>
+							<li class="bg-f6f6f6"><a href="">Health</a></li>
+							<li class="bg-f6f6f6"><a href="">Technology</a></li>
+							<li class="bg-f6f6f6"><a href="">Future</a></li>
+							<li class="bg-f6f6f6"><a href="">Music</a></li>
+							<li class="bg-f6f6f6"><a href="">Weather</a></li>
+							<li class="bg-f6f6f6"><a href="">Movies</a></li>
+							<li class="bg-f6f6f6"><a href="">Enviroment</a></li>
+							<li class="bg-f6f6f6"><a href="">War</a></li>
+						</ul>
+						<h3 class="text-uppercase textColor-606060">
+							<img src="../img/title-fr/fr9.png" style="margin-bottom: 5px;"/>
+							&nbsp;Featured Vedio
+						</h3>
+						<link href="../css/video-default.css" rel="stylesheet">
+						<script type="text/javascript" src="../js/jquery.video-ui.js"></script>
+						
+						<div class="col-md-12 col-sm-12 clearPadding ">
+							 <div class="videoUiWrapper thumbnail">
+		                        <video   id="demo1" class="col-md-12 col-sm-12 col-xs-12 " poster="../img/video.png" preload="none" style="padding: 0;">
+		                            <!-- <source src="oceans.ogv" type="video/ogg">  -->
+		                            <source src="../files/oceans.mp4" type="video/mp4">
+		                            Your browser does not support the video tag.
+		                        </video>
+		                    </div>
+						</div>
+						
+						<script>
+							$('#demo1').videoUI({
+								'autoPlay':false
+							});
+						</script>
+						<h3 class="text-uppercase textColor-606060" style="display: inline-block;">
+							<img src="../img/title-fr/fr11.png" style="margin-bottom: 5px;"/>
+							&nbsp;Twitter
+						</h3>
+						<div class="twitter">
+							<div class="media">
+							   	<a class="pull-left" href="#">
+							      	<img class="media-object" src="../img/twitter-start.png" alt="Media Object">
+							   	</a>
+							   	<div class="media-body">
+							      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
+							   </div>
+							</div>
+							<div class="media">
+							   	<a class="pull-left" href="#">
+							      	<img class="media-object" src="../img/twitter-start.png" alt="Media Object">
+							   	</a>
+							   	<div class="media-body">
+							      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
+							   </div>
+							</div>
+							<div class="media">
+							   	<a class="pull-left" href="#">
+							      	<img class="media-object" src="../img/twitter-start.png" alt="Media Object">
+							   	</a>
+							   	<div class="media-body">
+							      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
+							   </div>
+							</div>
+							<div class="media">
+							   	<a class="pull-left" href="#">
+							      	<img class="media-object" src="../img/twitter-start.png" alt="Media Object">
+							   	</a>
+							   	<div class="media-body">
+							      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
+							   </div>
+							</div>
+						</div>	
+						<h3 class="text-uppercase textColor-606060" style="margin-top: 10px;">
+							<img src="../img/title-fr/fr12.png" style="margin-bottom: 5px;"/>
+							&nbsp;NewsLetter
+						</h3>
+						<div class="col-md-12 col-sm-12">
+						  	<h4>Subscribe to out NewsLetter</h4>
+						    <div class="input-group">
+						      	<input type="text" class="form-control" placeholder="Enter your Email...">
+						      		<span class="input-group-btn">
+						        		<button class="btn bg-ff5842" type="button">Subscribe!</button>
+						      		</span>
+						    </div>
+						</div><!-- /.col-lg-6 -->
+ 					</div>
+					
+					
+					
+					
+					
+				</div>
+				<div class="">
+					<div class="">
+						<div class="col-md-9 col-sm-9 fr4" >
+							<div class="callbacks_container">
+							    <ul class="rslides" id="slider1">
+							        <li>
+							          	<div class="">
+											<div class="thumbnail">
+												<img src="../img/banner2.png" alt="...">
+												<div class="">
+													<h5><dl class="dl-horizontal"><dt>第一</dt></dl> </h5>
+													<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+							  					</div>
+											</div>
+										</div>
+							        </li>
+							         <li>
+										<div class="">
+											<div class="thumbnail">
+												<img src="../img/banner2.png" alt="...">
+												<div class="">
+													<h5><dl class="dl-horizontal"><dt>第六</dt></dl></h5>
+													<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+							  					</div>
+											</div>
+										</div>
+							        </li>
+							         <li>
+										<div class="">
+											<div class="thumbnail">
+												<img src="../img/banner2.png" alt="...">
+												<div class="">
+													<h5><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+													<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+							  					</div>
+											</div>
+										</div>
+							        </li>
+							    </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<script type="text/javascript">
+		$(function () {
+			$("#tabs1 a").mousemove(function (e) {
+	            $(this).fadeIn(15000).tab('show');
+	        });
+	        $("#tabs2 a").mousemove(function (e) {
+	            $(this).fadeIn(15000).tab('show');
+	        });
+	        $("#tabs3 a").mousemove(function (e) {
+	            $(this).fadeIn(15000).tab('show');
+	        });
+	        $("#tabs4 a").mousemove(function (e) {
+	            $(this).fadeIn(15000).tab('show');
+	        });
+	        /*轮播图*/
+	        $("#slider1").responsiveSlides({
+				auto: true,             // 
+				speed: 500,            // 
+				timeout: 4000,          // 
+				pager: false,           // 
+				nav: true,             // 
+				pause: true,           // 
+				namespace: "callbacks",   // 
+				before: function(){},   // 
+				after: function(){}     // 
+			});
+			/*鼠标悬停切换背景*/
+			$(".twitter>.media").hover(
+		      	function (e) {
+		      		$(this).find("img").attr("src","../img/twitter-over.png")
+		      	},
+		      	function (e) {
+		      		$(this).find("img").attr("src","../img/twitter-start.png")
+		      	}
+		    )
+			
+		})
+	</script>
+	</body>
+</html>
