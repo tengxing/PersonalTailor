@@ -1,0 +1,233 @@
+extends layout
+block content
+   link(href='/stylesheets/about.css',rel='stylesheet')
+   div.ibody
+      header
+         h1 如影随形
+         h2 影子是一个会撒谎的精灵，它在虚空中流浪和等待被发现之间;在存在与不存在之间....
+         div.logo
+            a(href='/')
+         nav(id='topnav')
+            a(href='/') 首页
+            a(href='about') 关于我
+            a(href='slowLife') 慢生活
+            a(href='templateSharing') 模板分享
+            a(href='templateTheme') 模板主题
+      article
+         h3.about_h 您现在的位置是：
+            a(href='/') 首页
+            font >
+            a(href='about') 关于我
+         div.about
+            h2 Just about me
+            div.table-responsive
+               table.table
+                  thead
+                     tr
+                        th
+                           h4 基本信息
+                        th
+                        th
+                        th
+                        th
+                        th
+                  tbody
+                     tr.active
+                        td 姓&nbsp;&nbsp;名：
+                        td 苏锋
+                        td 性&nbsp;&nbsp;别：
+                        td 男
+                        td 民&nbsp;&nbsp;族：
+                        td 汉
+                     tr.success
+                        td 出生日期：
+                        td 1988-01-27
+                        td 现居住地：
+                        td 北京
+                        td 籍&nbsp;&nbsp;贯：
+                        td 吉林·长春
+                     tr.warning
+                        td 身高、体重：
+                        td 170cm、60kg
+                        td 工作经验：
+                        td 2年
+                        td 求职意向：
+                        td WEB前端开发
+                     tr.danger
+                        td 电&nbsp;&nbsp;话：
+                        td 13693611951
+                        td 邮&nbsp;&nbsp;箱：
+                        td 249483010@qq.com
+                        td 目前状态：
+                        td 离职
+                  thead
+                     tr
+                        th
+                           h4 教育背景
+                        th
+                        th
+                        th
+                        th
+                        th
+                  tbody
+                     tr.active
+                        td 毕业院校：
+                        td 吉林交通职业技术学院
+                        td 所学专业：
+                        td 机动车保险实务
+                        td 学历：
+                        td 大专
+                     tr.success
+                        td 入学年份：
+                        td 2009-09
+                        td 毕业时间：
+                        td 2012-07
+                        td
+                        td
+                  thead
+                     tr
+                        th
+                         h4 专业技能
+                        th
+                        th
+                        th
+                        th
+                        th
+                  tbody
+                     tr
+                        td(colspan='6')
+                           p 1.精通HTML+CSS网页布局与样式，熟练掌握HTML5与CSS3.0并能快速搭建前端框架。
+                           p 2.熟悉JavaScript语言及JavaScript库jQuery，注重用户体验，熟悉Ajax运行机制,并能配合后台进行数据交互处理。
+                           p 3.熟练运用Adobe Photoshop， Adobe Dreamweaver、Eclipse、JetBrains WebStorm等常用网页设计、制作软件。
+                           p 4.了解移动端响应式布局、浏览器解析及渲染原理，了解Bootstrap、浏览器栅格系统及css3媒体查询，书写响应式页面。
+                           p 5.了解MySQL、SQL Server数据库软件及操作。
+                           p 6.了解前端开发MVC结构，表现与数据分离，web语义化等。
+                           p 7.个人作品https://github.com/Ing907525/BootStrap(更新中·····)
+                  thead
+                     tr
+                        th
+                           h4 工作经历
+                        th
+                        th
+                        th
+                        th
+                        th
+                  tbody
+                     tr.active
+                        td(colspan='2') 北京奥瞻信息技术有限公司
+                        td(colspan='2') 网络部 WEB前端开发
+                        td(colspan='2') 2016.03-2016.06
+                     tr.success
+                        td(colspan='2') 北京佳友在线网络科技有限公司
+                        td(colspan='2') 网络部 WEB前端开发
+                        td(colspan='2') 2015.06-2015.12
+                     tr.warning
+                        td(colspan='2') 长春市晨曦商务有限公司
+                        td(colspan='2') 销售部 销售代表
+                        td(colspan='2') 2012.9-2013-11
+                  thead
+                     tr
+                        th
+                           h4 项目经验
+                        th
+                        th
+                        th
+                        th
+                        th
+                  tbody
+                     tr.active
+                        td(colspan='6')
+                           h5 NO.1
+                     tr.success
+                        td(colspan='1') 项目名称：
+                        td(colspan='1') 益奥药网
+                        td(colspan='4')
+                           a(href='http://yiaoy.com',target='_blank') (http://yiaoy.com)
+                     tr.warning
+                        td(colspan='1') 开发工具：
+                        td(colspan='5') Dreamweaver、Hbuilder、eclipse、Photoshop等
+                     tr.danger
+                        td(colspan='1') 开发环境：
+                        td(colspan='5') windows、tomcat、Google Chorme、IE、Safari等浏览器
+                     tr.active
+                        td(colspan='1') 开发周期：
+                        td(colspan='5') 3个月
+                     tr
+                        td.borderR(colspan='1') 项目描述：
+                        td(colspan='5')
+                           p 1、用户登录注册及个人信息展示
+                           p 2、多级联动搜索查询
+                           p 3、商品详细信息查询，展示
+                           p 4、类似在线论坛功能（用户在线沟通并展示用户之间聊天功能）等。
+                     tr
+                        td.borderR(colspan='1') 项目职责：
+                        td(colspan='5')
+                           p 1、网站前端框架搭建、静态页面的制作，网站动态效果实现、部分模板设计等。
+                           p 2、使用版本管理工具（SVN）配合后台整合网站功能。
+                           p 3、优化网站性能，各大主流浏览器下的兼容性测试，增强用户体验。
+                           p 4、网站更新及维护等。
+                     tr.active
+                        td(colspan='6')
+                           h5 NO.2
+                     tr.success
+                        td(colspan='1') 项目名称：
+                        td(colspan='1') 佳友在线佳能专区
+                        td(colspan='4')
+                           a(href='http://bbs.photofans.cn/canon.php',target='_blank') (http://bbs.photofans.cn/canon.php)
+                     tr.warning
+                        td(colspan='1') 开发工具：
+                        td(colspan='5') Dreamweaver、Hbuilder、eclipse、Photoshop等
+                     tr.danger
+                        td(colspan='1') 开发环境：
+                        td(colspan='5') windows、Google Chorme、IE、Safari等浏览器
+                     tr.active
+                        td(colspan='1') 开发周期：
+                        td(colspan='5') 6个月
+                     tr
+                        td.borderR(colspan='1') 项目描述：
+                        td(colspan='5')
+                           p 1、用户登录注册及个人信息展示
+                           p 2、推广信息展示
+                           p 3、产品详细信息不定期更新等
+                     tr
+                        td.borderR(colspan='1') 项目职责：
+                        td(colspan='5')
+                           p 1、使用html5+css3.0技术实现网页框架搭建。
+                           p 2、使用JavaScript及jQuery技术实现网页动态效果实现、表单验证。
+                           p 3、部分代码SEO实现，整站更新、维护、制作新增专题页面，处理页面兼容性，图片微调等。
+                  thead
+                     tr
+                        th
+                           h4 自我评价
+                        th
+                        th
+                        th
+                        th
+                        th
+                     tr
+                        td(colspan='6')
+                           p 思维敏捷，逻辑分析能力强，工作认真、负责，自学能力强，为人诚恳、热心，善于交流与沟通，能快速融入团队工作，能承受一定工作压力，具备优秀的表达能力。专业素质良好,遇事沉着冷静，能理性的看待和解决问题；能从容应对来自各方面的压力，寻找其他创新解决问题的方法。
+            h2 About my blog
+            ul.blog_a
+               p
+                  a(href='/') 武林至尊，宝刀屠龙，号令天下，莫敢不从，倚天不出，谁与争锋？
+
+      aside
+         div.avatar
+            a(href='/')
+               span 关于杨青
+         div.topspaceinfo
+            h1 执子之手，与子偕老
+            p 于千万人之中，我遇见了我所遇见的人....
+         div.about_c
+            p 网名：无心山人
+            p 职业：java程序员
+            p 籍贯：山东-济南
+            p 电话：1325668****
+            p 邮箱：357197332@qq.com
+            p
+               img(src='images/email.png',alt="徐昊个人博客网站")
+            p
+               img(src='http://rescdn.list.qq.com/zh_CN/htmledition/images/qunfa/manage/picMode_light_m.png',style='border:0;',alt="填写您的邮件地址，订阅我们的精彩内容：")
+      script(src='/javascripts/silder.js')
+      div.clear

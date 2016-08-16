@@ -1,0 +1,144 @@
+﻿body {
+    background-color: #eae5e5;
+    font-size: 14px;
+}
+img{
+    display: inline-block !important;}
+.row-fluid{padding-right: 15px;}
+.row-fluid>h4{margin-top: 10px;}
+.header {
+    height: 70px;
+    background-image: url(../images/topbg.png);
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.logo_admin {
+    position: absolute;
+    left: 1%;
+    width: 5%;
+}
+
+.logo-title {
+    display: inline-block;
+    margin-left: 7%;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.loginout, .loginout:hover, .loginout:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+.mymsg, .mymsg:hover, .mymsg:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+.caret {
+    margin-top: 13px !important;
+}
+*/
+
+
+.inline {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+ul.inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: left
+}
+.nav {
+    background-image: url(../images/navbg.png);
+    margin: 0;
+    padding-left: 19%;
+    border-bottom: 1px solid #d3d1d1;
+}
+
+.breadcrumb {
+    margin: 0;
+    background: none !important;
+    padding: 0 0 0 25px;
+}
+.nav>.breadcrumb{padding: 0;margin: 0}
+.date {
+    display: inline-block;
+}
+
+.content {
+    margin-top: 5px;
+    padding: 0;
+}
+
+.content-left, .content-right {
+    border: 1px solid #d3d1d1;
+    background-color: #fff;
+    overflow: auto;
+    padding: 0;
+}
+.content-left{padding: 0 !important;}
+.contents-right {
+    background:#ffffff;border:#d3d1d1 solid 1px;
+}
+.container-fluid{padding-right: 0 !important;}
+.iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.left-icon {
+    width: 12%;
+}
+
+.left-icon-child {
+    margin-left: 15%;
+    width: 10%;
+}
+
+.left-title {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+}
+.accordion-toggle {
+    background-image: url(../images/left-title-bg.png);
+}
+
+.accordion-toggle:hover {
+    background-image: url(../images/left-title-bg-h.png);
+    text-decoration: none;
+    color: white !important;
+}
+
+.accordion-inner {
+    padding: 9px 15px;
+    padding: 8px 15px\9;
+    border-top: 1px solid #e5e5e5;
+    font-size: 14px;
+}
+
+.accordion-inner:hover {
+    background-image: url(../images/left-title-bg-h.png);
+    text-decoration: none;
+    color: white !important;
+    cursor: pointer;
+}
+
+

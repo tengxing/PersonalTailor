@@ -1,0 +1,55 @@
+
+extends ./layout
+
+block content
+   pre(style='font-size:20px;color:red;')  #{ success}
+   //pre(style='font-size:20px;color:red;')  error==#{ error}
+   //pre(style='font-size:20px;color:red;')  messages==#{messages}
+   link(href='/admin/styles/screen.css',rel='stylesheet')
+   link(href='/admin/styles/base.css',rel='stylesheet')
+   div.logina-main.main.clearfix
+      div.tab-con
+         form(id='form-login',method='post',action='/admin/login')
+            div.error-tip
+            table(border="0" cellspacing="0" cellpadding="0")
+               tbody
+                  tr
+                     th 账户
+                     td(style='width:245px')
+                        input(type='text',placeholder='Email',required="",name='username',id='username')
+                     td
+                  tr
+                     th 密码
+                     td(style='width:245px')
+                        input(type='password',placeholder="请输入口令",required="",name='password',id='password')
+                     td
+                  tr(id='tr-vcode',style='display:none;')
+                     th 验证码
+                     td(style='width:245px')
+                        div.valid
+                           input(type='text',name='vcode')
+                           img(src='/',style='width:85px;height:35px')
+                     td
+                  tr.find
+                     th
+                     td
+                        div
+                           label.checkbox(for='chk11',)
+                              input(type='checkbox',value='Remember-me')
+                              font Remember me?
+                           a(href='/admin/toGetPwd') 忘记密码？
+                     td
+                  tr
+                     th
+                        td(style='width:245px')
+                           input.confirm(type='submit',value='登录')
+            input(type='hidden',name='refer',value='')
+      div.reg
+         p 还没有账号？
+         p 赶快免费注册一个吧！
+            a.reg-btn(href='./reg') 立即免费注册
+   div(id='footer')
+      div.copyright Copyright © 2014 js-css.cn. All Rights Reserved. js代码网 版权所有
+
+
+

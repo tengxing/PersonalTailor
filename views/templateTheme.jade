@@ -1,0 +1,187 @@
+extends layout
+block content
+   link(href='/stylesheets/style.css',rel='stylesheet')
+   link(href='/stylesheets/media.css',rel='stylesheet')
+   div.ibody
+      header
+         h1 如影随形
+         h2 影子是一个会撒谎的精灵，它在虚空中流浪和等待被发现之间;在存在与不存在之间....
+         div.logo
+            a(href='/')
+         nav(id='topnav')
+            a(href='/') 首页
+            a(href='about') 关于我
+            a(href='slowLife') 慢生活
+            a(href='templateSharing') 模板分享
+            a(href='templateTheme') 模板主题
+      article
+         h3.about_h 您现在的位置是：
+            a(href='/') 首页
+            font >
+            a(href='templateSharing') 模板分享
+            font >
+            a(href='/') 个人博客模板
+         div.index_about
+            h2.c_titile 黑色Html5个人博客模板主题《如影随形》
+            p.box_c
+               span.d_time 发布时间
+               span 编辑：杨青
+               span 浏览(300)
+               span 评论(14)
+            ul.infos
+               p 2014第二版黑色Html5个人博客模板主题《如影随形》，如精灵般的影子会给人一种神秘的感觉。一张剪影图黑白搭配，如果整个网站用黑白灰三色，会显得比较太过沉重，于是，在选择亮色方面，用以红为主色，蓝为辅色。这样就铺上了一些神秘甚至有些俏皮的元素。
+               p 如果你更喜欢用蓝色或者绿色，这也不错，替换关键的颜色值就行了，推荐颜色值：
+                  img(src='images/color.jpg', alt='黑色Html5个人博客模板')
+               p Html5响应式两栏布局，LOGO重点突出，首页推荐文章列表以Logo中轴线为时间轴，鼠标Hover触发时间轴左侧栏显示文章发布时间，文字banner动画均以css3代码来实现效果。
+               p
+                  b 首页效果图：
+               p
+                  img(src='images/xgt.jpg',alt="黑色Html5个人博客模板")
+               p
+                  b 移动设备和平板电脑浏览效果：
+               p
+                  img(src='images/ltpic.jpg',alt="黑色Html5个人博客模板")
+               p
+                  img(src='images/col.jpg',alt="黑色Html5个人博客模板")
+            div.keybq
+               p
+                  span 关键字词
+                     font ：黑色,个人博客,时间轴,响应式
+            div.nextinfo
+               p 上一篇
+                  a(href='/') 程序员应该如何高效的工作学习
+               p 上一篇
+                  a(href='/') 柴米油盐的生活才是真实
+            div.otherlink
+               h2 相关文章
+               ul
+                  li
+                     a(href='/',title="现在，我相信爱情！") 现在，我相信爱情！
+                  li
+                     a(href='/',title="我希望我的爱情是这样的！") 我希望我的爱情是这样的！
+                  li
+                     a(href='/',title="有种情谊，不是爱情，也算不得友情！") 有种情谊，不是爱情，也算不得友情！
+                  li
+                     a(href='/',title="世上最美好的爱情！") 世上最美好的爱情！
+                  li
+                     a(href='/',title="爱情没有永远，地老天荒也走不完！") 爱情没有永远，地老天荒也走不完！
+                  li
+                     a(href='/',title="爱情的背叛者！") 爱情的背叛者！
+      aside
+         div.rnav
+            li.rnav1
+               a(href='/') 日记
+            li.rnav2
+               a(href='/') 欣赏
+            li.rnav3
+               a(href='/') 程序人生
+            li.rnav4
+               a(href='/') 经典语录
+         div.ph_news
+            h2
+               p 点击排行
+            ul.ph_n
+               li
+                  span.num1 1
+                  a(href='/') 有一种思念，是淡淡的幸福,一个心情一行文字
+               li
+                  span.num2 2
+                  a(href='/') 励志人生-要做一个潇洒的女人
+               li
+                  span.num3 3
+                  a(href='/') 女孩都有浪漫的小情怀――浪漫的求婚词
+               li
+                  span 4
+                  a(href='/') Green绿色小清新的夏天-个人博客模板
+               li
+                  span 5
+                  a(href='/') 女生清新个人博客网站模板
+               li
+                  span 6
+                  a(href='/') Wedding-婚礼主题、情人节网站模板
+               li
+                  span 7
+                  a(href='/') Column 三栏布局 个人网站模板
+               li
+                  span 8
+                  a(href='/') 时间煮雨-个人网站模板
+               li
+                  span 9
+                  a(href='/') 花气袭人是酒香―个人网站模板
+            h2
+               p 栏目推荐
+            ul.tjlist
+               //li
+               //   a(href='/') 有一种思念，是淡淡的幸福,一个心情一行文字
+               //li
+               //   a(href='/') 励志人生-要做一个潇洒的女人
+               //li
+               //   a(href='/') 女孩都有浪漫的小情怀――浪漫的求婚词
+               //li
+               //   a(href='/') Green绿色小清新的夏天-个人博客模板
+               //li
+               //   a(href='/') 女生清新个人博客网站模板
+               //li
+               //   a(href='/') Wedding-婚礼主题、情人节网站模板
+               //li
+               //   a(href='/') Column 三栏布局 个人网站模板
+               //li
+               //   a(href='/') 时间煮雨-个人网站模板
+               //li
+               //   a(href='/') 花气袭人是酒香―个人网站模板
+            h2
+               p 最新评论
+            ul.pl_n
+               //dl
+               //   dt
+               //      img(src='images/s8.jpg')
+               //   dt
+               //   dd DanceSmile
+               //      time 49分钟前
+               //   dd
+               //      a(href='/') 文章非常详细，我很喜欢.前端的工程师很少，我记得几年前yahoo花高薪招聘前端也招不到
+               //dl
+               //   dt
+               //      img(src='images/s7.jpg')
+               //   dt
+               //   dd yisa
+               //      time 2小时前
+               //   dd
+               //      a(href='/') 我手机里面也有这样一个号码存在
+               //dl
+               //   dt
+               //      img(src='images/s6.jpg')
+               //   dt
+               //   dd 小林博客
+               //      time 8月7日
+               //   dd
+               //      a(href='/') 博客色彩丰富，很是好看
+               //dl
+               //   dt
+               //      img(src='images/003.jpg')
+               //   dt
+               //   dd DanceSmile
+               //      time 49分钟前
+               //   dd
+               //      a(href='/') 文章非常详细，我很喜欢.前端的工程师很少，我记得几年前yahoo花高薪招聘前端也招不到
+               //dl
+               //   dt
+               //      img(src='images/002.jpg')
+               //   dt
+               //   dd yisa
+               //      time 2小时前
+               //   dd
+               //      a(href='/') 我手机里面也有这样一个号码存在
+            h2
+               p 最近访客
+               ul
+                  //直接使用多说的插件调用代码
+                  img(src='images/vis.jpg')
+         div.copyright
+            ul
+               p Design by
+                  a(href='/') DanceSmile
+               p 蜀ICP备11002373号-1
+      script(src='javascripts/silder.js')
+      script(src='javascripts/templateTheme.js')
+      div.clear

@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+.callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+  }
+
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  /*margin: 0;*/
+  }
+
+.callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.callbacks img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  border: 0;
+  }
+
+.callbacks .caption {
+  position: absolute;
+  z-index: 2;
+  text-shadow: none;
+  color: #fff;
+  background: #000;
+  background: rgba(0,0,0, .8);
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  margin: 10px 20px !important;
+  max-width: 60%;
+  }
+
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: -5px;
+  left: auto;
+  right: 60px;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 41px;
+  width: 41px;
+  background: transparent url("../../img/themes.png") no-repeat left top;
+  margin-top: -45px;
+  }
+.callbacks2_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: auto;
+  bottom: 30px;
+  right: 90px;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 41px;
+  width: 41px;
+  background: transparent url("../../img/themes.png") no-repeat left top;
+  margin-top: -45px;
+  }
+.callbacks2_nav.next {
+  right: 40px !important;
+  
+  }
+.callbacks_nav:active {
+  opacity: 1.0;
+  }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 15px;
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+  
+  
+   
+}

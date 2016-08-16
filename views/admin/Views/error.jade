@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  link(href='/admin/styles/error.css',rel='stylesheet')
+  .container-fluid
+    div(id='page',style='border-style:dashed !important;border-color:#e4e4e4;line-height:30px;background:url(sorry.png) no-repeat right;')
+      h1 抱歉，找不到此页面
+      h2 Sorry, the site now can not be accessed.
+      font 你请求访问的页面，暂时找不到，我们建议你返回首页官网进行浏览，谢谢！
+      div.button
+        a(href='/',title='进入官网',target='_blank') 进入官网
